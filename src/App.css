@@ -1,38 +1,118 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 0 auto;
+  width: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+}
+.paragraph{
+  margin: 20px;
+  color: hsl(210, 22%, 49%);
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: hsl(210, 22%, 49%);
+}
+.btn{
+  padding: 10px;
+  background-color:#318b38;
+  border-radius: 20px;
+  margin: 10px;
   color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.input{
+  width: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+label{
+  font-size: 30px;
+  padding: 20px;
+}
+.icon-btns-div{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 18px;
+  height: 5px;
+  margin-top: 35px;
+  border-radius: 20px;
+}
+.input-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 500px){
+  .App {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.paragraph{
+  margin: 20px;
+}
+.btn{
+  padding: 10px;
+  background-color:#318b38;
+  border-radius: 20px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.input{
+  width: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+label{
+  font-size: 20px;
+  padding: 10px;
+}
+.icon-btns-div{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 18px;
+  height: 5px;
+  margin-top: 35px;
+  border-radius: 20px;
+}
+
+}
+@media (max-width : 992px){
+    .App {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
 }
